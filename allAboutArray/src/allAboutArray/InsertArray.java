@@ -21,9 +21,9 @@ public class InsertArray {
 		
 		int newElement = 100;
 		int pos = 5;//if for user if its 1 then for dev its 0 or (i-1)
-		for (int i = n; i >= pos;i-- ) 
+		for (int i = n; i >= pos;i-- ) //here is how insert algo works
 		{
-			ar[i] = ar[i-1];
+			ar[i] = ar[i-1];//heres how insert algo works
 		}
 		
 		ar[pos-1] = newElement;
